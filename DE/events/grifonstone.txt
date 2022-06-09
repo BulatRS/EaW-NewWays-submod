@@ -1,19 +1,18 @@
-﻿###########################
+###########################
 # grifonstoneian Events
 ###########################
-
 add_namespace = grifonstone
-
 # first focus event
 country_event = {
 	id = grifonstone.1
 	title = grifonstone.1.t
 	desc = grifonstone.1.d
 	picture = GFX_event_medieval_castle_on_hill
-	
 	is_triggered_only = no
-	
 	option = { # Breaking point!
 		name = grifonstone.1.a
-		ai_chance = { factor = 100 }
+		ai_chance = {
+			factor = 100
+		}
+	}
 }
