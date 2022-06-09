@@ -1,0 +1,35 @@
+capital = 3
+
+set_research_slots = 6
+
+add_ideas = {
+	modern_society
+}
+
+set_popularities = {
+	democratic = 5	fascism = 75	communism = 0	neutrality = 20}
+
+set_politics = {
+
+	ruling_party = fascism	
+}
+
+
+create_faction = Lands_of_Chaos
+add_to_faction = DIS
+
+set_stability = 0
+set_war_support = 1
+
+
+recruit_character = DIS_Discord
+
+add_country_leader_role = {
+ character = DIS_Discord
+ promote_leader = yes
+ country_leader = {
+ ideology = discords_chaos
+ expire = “1965.1.1.1”
+ traits = { discord }
+ }
+}
