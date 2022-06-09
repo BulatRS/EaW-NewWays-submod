@@ -1,0 +1,6 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_DIS_Discord"
+		textureFile = "gfx/leaders/DIS/DIS_Discord.tga"
+	}
+}
