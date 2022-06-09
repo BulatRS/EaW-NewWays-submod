@@ -1,0 +1,11 @@
+leader_traits = {
+	discord = {
+		random = no
+		political_power_factor = 3
+        	stability_factor = -1
+       		war_support_factor = 1		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}
